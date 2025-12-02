@@ -1,7 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    color: rgb(24, 10, 10);
+    
 }
 
 body {
@@ -16,7 +16,30 @@ main {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.397);
 }
 
+h1 {
+    font-size: 2em;
+    color: brown;
+}
 
+h2 {
+    font-size: 1.5em;
+    color: brown;
+}
+
+img.lado {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: brown;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: brown;
+}
 
 /*dentro de html seguro ctrl e clico no link para abrir essa pagina css
 */

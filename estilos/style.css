@@ -41,5 +41,16 @@ a:hover {
     color: brown;
 }
 
+iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9; /* mantem a proporção do youtube*/
+    border-radius: 10px; /*opcional*/
+}
+
+.conteudo {
+    width: 80%;
+    margin: auto; /*faz o video se ajustar automaticamente a largura da caixa branca*/
+}
 /*dentro de html seguro ctrl e clico no link para abrir essa pagina css
 */
